@@ -1,0 +1,72 @@
+body, html {
+  font-family: "PT Sans", arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  width: 100%;
+  text-transform: uppercase;
+  counter-reset: number;
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  border: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.br-mobile {
+  display:inline;
+}
+
+.br-tablet {
+  display: none;
+}
+
+.br-desktop {
+  display: none;
+}
+
+@media(min-width: 768px) {
+  .br-mobile {
+    display:none;
+  }
+
+  .br-tablet {
+    display: inline;
+  }
+
+  .br-desktop {
+    display: none;
+  }
+}
+
+@media(min-width: 1280px) {
+  .br-mobile {
+    display:none;
+  }
+
+  .br-tablet {
+    display: none;
+  }
+
+  .br-desktop {
+    display: inline;
+  }
+}

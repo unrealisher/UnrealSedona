@@ -1,0 +1,39 @@
+.hotel {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.hotel__title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.hotel__text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 36px;
+}
+
+.hotel__button {
+  line-height: 58px;
+  font-size: 21px;
+  color: #fff;
+  display: block;
+  width: 280px;
+  height: 58px;
+  background-color: #81b3d2;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+@media(min-width: 768px) {
+  .hotel__button {
+    width: 458px;
+  }
+
+  .hotel__title {
+    font-size: 30px;
+  }
+}
