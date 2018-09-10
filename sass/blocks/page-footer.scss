@@ -1,0 +1,18 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer__map {
+  width: 320px;
+  height: 350px;
+  background-image: url("../../img/map-mobile.png");
+}
+
+@media(min-width: 768px) {
+  .page-footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}

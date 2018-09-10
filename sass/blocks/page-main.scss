@@ -1,0 +1,63 @@
+.page-main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top right, #fff 48%, transparent 52%),
+              linear-gradient(to top left, #fff 48%, transparent 52%),
+              url("../img/text-index.svg"),
+              url("../img/back-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 50% 26px, 50% 26px, 282px 214px, auto 389px;
+  background-position:  0px 363px, 50vw 363px, center 90px, center 0;
+  padding-top: 435px;
+  text-align: center;
+}
+
+.page-main__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 0 auto 32px auto;
+}
+
+.page-main__text {
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0 auto 26px auto;
+  width: 260px;
+}
+
+@media(min-width: 768px) {
+  .page-main {
+    background: linear-gradient(to top right, #fff 48%, transparent 52%),
+                linear-gradient(to top left, #fff 48%, transparent 52%),
+                linear-gradient(to top right, #fff 48%, transparent 52%),
+                linear-gradient(to top left, #fff 48%, transparent 52%),
+                url("../img/text-index.svg"),
+                url("../img/back-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 50% 37px, 50% 37px, 351px 58px, 351px 58px, 460px 350px, auto 518px;
+    background-position:  0px 482px, 384px 482px, 33px 460px, 384px 460px, center 77px, center 0;
+    padding-top: 570px;
+  }
+
+  .page-main__title {
+    font-size: 21px;
+  }
+}
+
+@media(min-width: 1280px) {
+  .page-main {
+    background: linear-gradient(to top right, #fff 48%, transparent 52%),
+                linear-gradient(to top left, #fff 48%, transparent 52%),
+                linear-gradient(to top right, #fff 48%, transparent 52%),
+                linear-gradient(to top left, #fff 48%, transparent 52%),
+                url("../img/text-index.svg"),
+                url("../img/back-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 50% 57px, 50% 57px, 351px 57px, 351px 57px, 460px 350px, auto 518px;
+    background-position:  0px 462px, 640px 462px, 250px 462px, 600px 462px, center 77px, center 0;
+    padding-top: 570px;
+  }
+}
