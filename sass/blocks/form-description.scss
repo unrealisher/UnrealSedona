@@ -1,0 +1,17 @@
+.form-description {
+  text-align: center;
+
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .form-description {
+    padding: 0 162px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-description {
+    padding: 0 380px;
+  }
+}

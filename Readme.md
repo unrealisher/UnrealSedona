@@ -1,7 +1,7 @@
-# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+﻿# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Мезенцев Павел](https://up.htmlacademy.ru/adaptive/12/user/499135).
-* Наставник: [Вячеслав Солодовников](https://up.htmlacademy.ru/adaptive/12/user/499135).
+* Студент: Мезенцев Павел.
+* Наставник: Вячеслав Солодовников.
 
 ---
 

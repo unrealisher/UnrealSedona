@@ -1,0 +1,15 @@
+.visually-space {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .visually-space {
+    &--tablet {
+      display: block;
+    }
+
+    &--desktop {
+      display: block;
+    }
+  }
+}

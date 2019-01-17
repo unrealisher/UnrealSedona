@@ -1,0 +1,50 @@
+.search-hostel {
+  text-align: center;
+
+  padding: 0 20px;
+}
+
+.search-hostel__title {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+
+  margin-top: 26px;
+  margin-bottom: 4px;
+}
+
+.search-hostel__button {
+  margin-top: 34px;
+  margin-bottom: 46px;
+}
+
+@media (min-width: $tablet-width) {
+  .search-hostel {
+    padding: 0 153px;
+  }
+
+  .search-hostel__title {
+    font-size: 30px;
+
+    margin-top: 56px;
+    margin-bottom: 18px;
+  }
+
+  .search-hostel__button {
+    margin-top: 40px;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .search-hostel {
+    padding: 0 371px;
+  }
+
+  .search-hostel__button {
+    margin-top: 44px;
+    margin-bottom: 65px;
+  }
+}

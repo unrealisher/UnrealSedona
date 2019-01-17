@@ -1,0 +1,168 @@
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item {
+  padding-bottom: 13px;
+  padding-right: 20px;
+  padding-left: 70px;
+
+  &:first-child {
+    padding-top: 40px;
+  }
+
+  &:last-child {
+    padding-bottom: 22px;
+  }
+}
+
+.advantages__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &--house {
+    &::before {
+      left: -47px;
+      top: -10px;
+
+      height: 37px;
+      width: 39px;
+
+      background-image: url("../img/icon-house.svg");
+    }
+  }
+
+  &--gift {
+    &::before {
+      left: -45px;
+      top: -12px;
+
+      height: 38px;
+      width: 32px;
+
+      background-image: url("../img/icon-gift.svg");
+    }
+  }
+
+  &--burger {
+    &::before {
+      left: -50px;
+      top: -6px;
+
+      height: 35px;
+      width: 40px;
+
+      background-image: url("../img/icon-burger.svg");
+    }
+  }
+}
+
+.advantages__text {
+  line-height: 21px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    flex-direction: row;
+  }
+
+  .advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3333%;
+
+    text-align: center;
+
+    padding: 0;
+    padding-top: 160px;
+
+    &:first-child {
+      padding-top: 160px;
+    }
+
+    &--gift {
+      order: 1;
+    }
+  }
+
+  .advantages__title {
+    font-size: 21px;
+
+    margin-bottom: 8px;
+
+    &--house {
+      &::before {
+        left: -5px;
+        top: -100px;
+
+        height: 72px;
+        width: 75px;
+      }
+    }
+
+    &--gift {
+      &::before {
+        left: 18px;
+        top: -103px;
+
+        height: 75px;
+        width: 64px;
+      }
+    }
+
+    &--burger {
+      &::before {
+        left: -22px;
+        top: -97px;
+
+        height: 68px;
+        width: 77px;
+      }
+    }
+  }
+
+  .advantages__text {
+    width: 165px;
+
+    margin-bottom: 38px;
+
+    &--burger {
+      width: 155px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__text {
+    width: 260px;
+
+    margin-bottom: 59px;
+
+    &--burger {
+      width: 290px;
+    }
+  }
+}

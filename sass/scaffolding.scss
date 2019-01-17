@@ -1,0 +1,25 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-text;
+  text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    background-color: $color-input;
+  }
+}

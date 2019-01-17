@@ -1,0 +1,18 @@
+.welcome {
+  background-color: $color-welcome;
+  background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-position: center bottom, center;
+  background-size: 100%, auto;
+  background-repeat: no-repeat;
+}
+
+.welcome__text {
+  display: block;
+  min-height: 214px;
+
+  background-image: url("../img/text-sedona-index.svg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto 20px;
+}

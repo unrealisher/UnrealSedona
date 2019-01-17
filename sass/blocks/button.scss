@@ -1,0 +1,32 @@
+.button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+
+  border: none;
+
+  background-color: $blue;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 18px;
+  padding-bottom: 16px;
+
+  &:hover {
+    background-color: $blue-hover;
+  }
+
+  &:active {
+    background-color: $blue-down;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background-color: $disabled;
+    color: #f8f8f8;
+  }
+}
